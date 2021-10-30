@@ -1,0 +1,86 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/41Yv6VC-fdL.png");
+  /* ^ é a imagem do meio */
+  background-color: #4F4F4F;
+  /* ^ optei por usar cinza31 */
+  background-size: 80vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/* ^ é a configuração de tras */
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.notas {
+  color: #ECEFF1;
+}
+
+.notas-organ{
+  display: flex;
+  justify-content: start;
+}
+
+.notas-notas{
+  dispay: flex;
+  flex-direction: column;
+}
+
+.notas-notas input{
+  dispay: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+}
+
+.nota-local {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.nota-local input{
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.nota-local button{
+  border-radius: 10px;
+  max-width: 80px;
+  background-color: #76FF03;
+}
+
+.result {
+  margin-left: 90px;
+}
+
+.resultado {
+  color: #FF0000;
+}
